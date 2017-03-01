@@ -14,4 +14,8 @@ angular.module('directivePractice').controller('lessonCtrl', function($scope){
 
         $scope.test = 'Two-way data bindings!';
 
+        function announceDay(lesson, day){
+            var dayAlert = lesson + ' is active on ' + day + '.';
+        }
+
 });
