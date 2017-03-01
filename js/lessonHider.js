@@ -1,5 +1,9 @@
 angular.module('directivePractice').directive('lessonHider', function(){
     return {
-        templateUrl: 'lessonHider.html'   
+        restrict: 'E',
+        templateUrl: 'lessonHider.html',
+        link: function(scope, element, attr){
+            
+        }   
     }
 });
