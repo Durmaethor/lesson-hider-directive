@@ -12,4 +12,6 @@ angular.module('directivePractice').controller('lessonCtrl', function($scope){
             'Mongo'
         ];
 
+        $scope.test = 'Two-way data bindings!';
+
 });
